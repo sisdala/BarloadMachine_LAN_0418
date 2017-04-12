@@ -5,12 +5,12 @@ using UnityEngine;
 public class LoadAssets : MonoBehaviour {
 	public AssetBundle Abs;
 	public string Name;
-	public Object Child;
+	public GameObject Child;
 
 
-	void gogogo()
+	void Process()
 	{
-		Child = Instantiate (Abs.LoadAsset (Name));
+		Child = Instantiate (Abs.LoadAsset (Name))as GameObject;
 		Debug.Log ("5555555555");
 	}
 }
