@@ -4,13 +4,9 @@ using UnityEngine;
 
 public class CleanCache : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
+	void Process (){
+
 		Caching.CleanCache();
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
+
 	}
 }
