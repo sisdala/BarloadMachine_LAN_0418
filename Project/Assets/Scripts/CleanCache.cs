@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class CleanCache : MonoBehaviour {
 
-	void Process (){
+	void ProcessCleanCache (){
 
 		Caching.CleanCache();
 
