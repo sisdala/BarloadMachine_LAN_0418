@@ -1,7 +1,10 @@
 ManifestFileVersion: 0
-CRC: 2994411453
+CRC: 3616812731
 AssetBundleManifest:
   AssetBundleInfos:
     Info_0:
       Name: assets.unity3d
+      Dependencies: {}
+    Info_1:
+      Name: systemstart.unity3d
       Dependencies: {}
