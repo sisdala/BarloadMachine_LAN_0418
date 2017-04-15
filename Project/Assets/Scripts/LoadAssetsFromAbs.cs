@@ -7,16 +7,26 @@ public class LoadAssetsFromAbs : MonoBehaviour {
 	public string Name;
 	public GameObject Child;
 	public bool IsLoaded = false;
+	public string SystemPlatform;
 
 
 
-	void start()
-	{
-		
+	void Start () {
+		if (Application.platform == RuntimePlatform.WindowsEditor)
+			SystemPlatform = "Win";
+		if (Application.platform == RuntimePlatform.WindowsPlayer)
+			SystemPlatform = "Win";
+		if (Application.platform == RuntimePlatform.Android)
+			SystemPlatform = "Android";
+		if (Application.platform == RuntimePlatform.IPhonePlayer)
+			SystemPlatform = "ios";
+		if (Application.platform == RuntimePlatform.OSXEditor)
+			SystemPlatform = "ios";
 	}
 
 
 
+	/*
 	void Process()
 	{
 
@@ -28,4 +38,5 @@ public class LoadAssetsFromAbs : MonoBehaviour {
 		}
 		Debug.Log ("執行從ABs打撈Asset");
 	}
+	*/
 }
