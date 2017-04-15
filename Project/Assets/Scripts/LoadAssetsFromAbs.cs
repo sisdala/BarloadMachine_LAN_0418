@@ -26,7 +26,7 @@ public class LoadAssetsFromAbs : MonoBehaviour {
 
 
 
-	/*
+
 	void Process()
 	{
 
@@ -38,5 +38,5 @@ public class LoadAssetsFromAbs : MonoBehaviour {
 		}
 		Debug.Log ("執行從ABs打撈Asset");
 	}
-	*/
+
 }
